@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>塔罗抽卡小游戏</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>塔罗抽卡</h1>
+    <div class="controls">
+      <label>抽几张？
+        <select id="count">
+          <option value="1">1</option>
+          <option value="3" selected>3</option>
+        </select>
+      </label>
+      <button id="draw">抽卡</button>
+    </div>
+
+    <div id="cards" class="cards"></div>
+
+    <button id="interpret" class="hidden">解牌</button>
+    <div id="results" class="results"></div>
+
+    <footer>后端: Python (FastAPI)。</footer>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

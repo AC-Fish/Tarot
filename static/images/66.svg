@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520">
+  <defs>
+    <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <pattern id="weave" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="40" y2="40" stroke="#000" stroke-width="0.5" opacity="0.05"/>
+      <line x1="40" y1="0" x2="0" y2="40" stroke="#000" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect x="8" y="8" width="344" height="504" rx="18" fill="none" stroke="#000" stroke-width="1" opacity="0.1"/>
+  <rect x="12" y="12" width="336" height="496" rx="16" fill="#f0f8e6" stroke="#7ab87f" stroke-width="2.5" filter="url(#f1)"/>
+  <rect x="12" y="12" width="336" height="496" rx="16" fill="url(#weave)"/>
+  <rect x="18" y="18" width="324" height="8" rx="4" fill="#5a8a5f" opacity="0.3"/>
+  <g opacity="0.4">
+    <circle cx="28" cy="28" r="6" fill="#5a8a5f"/>
+    <line x1="28" y1="22" x2="28" y2="34" stroke="#5a8a5f" stroke-width="1"/>
+    <line x1="22" y1="28" x2="34" y2="28" stroke="#5a8a5f" stroke-width="1"/>
+  </g>
+  <g opacity="0.4">
+    <circle cx="332" cy="28" r="6" fill="#5a8a5f"/>
+    <line x1="332" y1="22" x2="332" y2="34" stroke="#5a8a5f" stroke-width="1"/>
+    <line x1="326" y1="28" x2="338" y2="28" stroke="#5a8a5f" stroke-width="1"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="180" y="50" font-size="18" fill="#5a8a5f" opacity="0.5">◉</text>
+    <text x="180" y="145" font-size="40" font-weight="700" font-family="serif" fill="#2d4a2a" letter-spacing="1">钱币</text>
+    <text x="180" y="195" font-size="28" font-family="serif" fill="#2d4a2a" opacity="0.9" font-style="italic">3</text>
+    <text x="180" y="470" font-size="18" fill="#5a8a5f" opacity="0.5">◉</text>
+  </g>
+  <rect x="18" y="494" width="324" height="8" rx="4" fill="#5a8a5f" opacity="0.3"/>
+</svg>
